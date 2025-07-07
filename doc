@@ -1,0 +1,5 @@
+The certificate is in the certificate.pem file.
+●​ 1) Open a powershell as administrator
+●​ 2) Insert the location of the certificate file below and run it directly in powershell
+Import-Certificate -FilePath "C:\path\to\your\certificate.pem" -CertStoreLocation
+"Cert:\LocalMachine\TrustedPeople"
